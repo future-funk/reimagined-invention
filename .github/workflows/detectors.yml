@@ -5,7 +5,7 @@ permissions:
   contents: write
 
 jobs:
-  syft-detection:
+  dependency-submission:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout Repository'
